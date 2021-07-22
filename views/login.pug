@@ -1,0 +1,11 @@
+include partial/header
+form(class='loginform' action='/login' method='POST')
+    h3(class='title') Login Form
+    label(for='uname' class='label') Username
+        input(type='text' name='username' id='uname' placeholder='Enter username')
+    label(for='password' class='label') Password
+        input(type='password' name='password' id='password' placeholder='Enter password')
+    input(type='submit' value='Login' class='btn') 
+    if(err)
+        p(class='err') #{err}
+include partial/footer

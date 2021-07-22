@@ -1,0 +1,20 @@
+{
+  "name": "jwt_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "pro-grammer206",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.12",
+    "pug": "^3.0.2"
+  }
+}
